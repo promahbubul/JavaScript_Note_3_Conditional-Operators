@@ -2,14 +2,24 @@
 <html>
   <head>
     <script>
-
-     let mood = 'sleepy';
-      let triednessLevel = 5;
-      if(!(mood === 'sleepy' && triednessLevel === 8)) {
-        console.log('Time to Sleep');
-      } else {
-        console.log('Not bed time yet');
+      
+      let groceryItem = "Alo";
+      
+      switch (groceryItem) {
+        case 'Tomato':
+          console.log('Tomatos are $0.49');
+          break;
+        case 'Alo':
+          console.log('Alos are $2.35');
+          break;
+        case 'Potato Chipe':
+          console.log("Potatos are $0.40");
+          break;
+        default:
+          console.log('Invalid item')
+          break;
       }
+
 
     </script>
   </head>
